@@ -1,15 +1,21 @@
 # Data Processing Documentation
 
 ## Overview
-Brief description of the data processing objectives and scope. Reminder to adhere to data ownership and usage guidelines.
+We aim to harness geotagged biodiversity data in the modelling of environmental conditions represented by multispectral satellite data. Additionally, given the importance of functional diversity in maintaining and promoting ecosystem functioning, we will use our modelling framework to explore scenarios of environmental change in the absence of species belonging to particular functional groups. We will develop and test our approach in areas targeted by the North American Breeding Bird Survey (BBS), using data obtained between 2015 and 2021.
 
 ## Data Sources
-List and describe data sources used, including links to cloud-optimized sources. Highlight permissions and compliance with data ownership guidelines.
+Our project will depend exclusively on open-access data. We will use:
+* **Landsat (LT) surface reflectances**, specifically from LT8 and LT9 sensors.
+* **Differences data sources on the occurrence of bird species**, namely BBS, GBIF, and Xeno-canto
+* **Land cover data** for all of North American (i.e. North American Environmental Atlas)
+* **Information on functional traits** for every known bird species (i.e. AVONET)
+* **Data on species function interactions** for every bird species (i.e. GloBI)
 
 ## CyVerse Discovery Environment
 Instructions for setting up and using the CyVerse Discovery Environment for data processing. Tips for cloud-based data access and processing.
 
 ## Data Processing Steps
+* Acquisition of Landsat acquisitions during BBS observation months Derive multispectral pheonological composites
 
 ### Using GDAL VSI
 Guidance on using GDAL VSI (Virtual System Interface) for data access and processing. Example commands or scripts:
