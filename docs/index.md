@@ -10,18 +10,16 @@ Welcome to the BioViewPoint repository, part of the Environmental Data Science I
 [Link to the detailed project proposal document or include the proposal directly in the repository. This should outline the goals, methodologies, anticipated challenges, and projected timelines.]
 
 ## Group Members
-<p align="justify">
 - **Ruben Remelgado**, University of Bonn, Germany (**PI/Tech-Lead**; *geocomputation, data uncertainties/synergies, macroecology*) 
 - **Kimberly Thompson**, German Centre for Integrative Biodiversity Research (iDiv), Germany (**Co-PI**, *ornitology, biodiversity change, causal inference*)
 - **Ryo Ogawa**, University of Bonn, Germany (*wildlife ecology, ecosystem services,  ecoacoustics*)
 - **Marina Wolowski**, Federal University of Alfenas, Brazil	(*botany, ecosystem services, ecological interaction*)
 - **Pablo Martinez**, Federal University of Sergipe, Brazil	(*zoology, species-human interactions, Biogeography*)
 - **Patrick O'Brien**, University of Alberta, Canada (*mathematics, physics, remote sensing*)
-- Benjamin Leutner, Land Banking Group, Germany (*geography, ecology, economics*)
-- Garrett Knowlton, University of Wisconsin, USA	(*landscape ecology, machine learning, remote sensing)
-- Corey Callaghan, University of Florida	Davies, USA (*biodiversity change, citizen science, biodiversity change)
-- Michela Perrone, Czech University of Life Sciences, Czech Republic (*ecology, geoinformatics, remote sensing)
-</p>
+- **Benjamin Leutner**, Land Banking Group, Germany (*geography, ecology, economics*)
+- **Garrett Knowlton**, University of Wisconsin, USA	(*landscape ecology, machine learning, remote sensing)
+- **Corey Callaghan**, University of Florida	Davies, USA (*biodiversity change, citizen science, biodiversity change)
+- **Michela Perrone**, Czech University of Life Sciences, Czech Republic (*ecology, geoinformatics, remote sensing)
 
 ## Code Repository
 (This section of the repository will include all the code developed for the project. You can structure it as follows)
