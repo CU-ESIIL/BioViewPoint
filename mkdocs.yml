@@ -1,7 +1,7 @@
 site_name: 'ESIIL Working Group BioViewPoint'
 site_description: 'Central resource for the ESIIL Working Group BioViewPoint'
 site_author: Ruben Remelgado
-site_url: https://cu-esiil.github.io/BioViewPoint
+site_url: https://cu-esiil.github.io/BioViewPoint/
 
 # Repository
 repo_name: BioViewPoint
