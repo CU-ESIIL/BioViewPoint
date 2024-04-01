@@ -1,0 +1,71 @@
+site_name: 'ESIIL Education Student OASIS'
+site_description: 'Central resource for ESIIL working groups'
+site_author: Ty Tuff
+site_url: https://cu-esiil.github.io/Education_OASIS
+
+# Repository
+repo_name: Education_OASIS
+repo_url: https://github.com/CU-ESIIL/Education_OASIS
+edit_uri: edit/main/docs/
+# Copyright
+copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
+
+# Page tree
+nav:
+  - Home: index.md
+  # TODO: Add your nav sections / sub-sections and path to markdown page Ex:
+  # - Remote Sensing:
+  #     - How to Cloud Correct Sentinel-2 Images: remote_sensing/sentinel_2_cloud_correction/sentinel_2_cloud_correction.md
+
+# Configuration
+theme:
+  highlightjs: true
+  name: material
+  font:
+    text: 'Open Sans'
+    code: 'Roboto Mono'
+  logo: 'assets/ESIIL_logo.png'
+  favicon: 'assets/favicon.ico'
+  # setting features for the navigation tab
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - toc.integrate
+    - toc.follow
+    - content.code.copy
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: white)"
+      primary: 'white'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+
+# Options
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cu-esiil/
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+    - search
+    - mkdocstrings
+    - git-revision-date
+    - mkdocs-jupyter:
+          include_source: True
+          ignore_h1_titles: True
