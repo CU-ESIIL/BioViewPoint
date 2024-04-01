@@ -1,11 +1,11 @@
-site_name: 'ESIIL Education Student OASIS'
+site_name: 'ESIIL Working Group OASIS'
 site_description: 'Central resource for ESIIL working groups'
 site_author: Ty Tuff
-site_url: https://cu-esiil.github.io/Education_OASIS
+site_url: https://cu-esiil.github.io/Working_group_home
 
 # Repository
-repo_name: Education_OASIS
-repo_url: https://github.com/CU-ESIIL/Education_OASIS
+repo_name: Working-group-home
+repo_url: https://github.com/CU-ESIIL/Working_group_oasis
 edit_uri: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
@@ -13,9 +13,28 @@ copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
 # Page tree
 nav:
   - Home: index.md
-  # TODO: Add your nav sections / sub-sections and path to markdown page Ex:
-  # - Remote Sensing:
-  #     - How to Cloud Correct Sentinel-2 Images: remote_sensing/sentinel_2_cloud_correction/sentinel_2_cloud_correction.md
+  - Resources:
+       - Code of Conduct: resources/code-of-conduct.md
+       - Participant agreement: resources/participant_agreement.md
+       - ESIIL training: resources/esiil_training.md
+       - Markdown: resources/markdown_basics.md
+       - Cyverse: resources/cyverse_basics.md
+       - Art Gallery: resources/art gallery.md
+  - Meeting Notes:
+       - Pre-meetings: resources/pre_meeting_notes.md
+       - First meeting: resources/first_meeting_notes.md
+       - Second meeting: resources/second_meeting_notes.md
+       - Third meeting: resources/third_meeting_notes.md
+       - Post-meetings: resources/post_meeting_notes.md
+  - Code documentation:
+       - Data processing: resources/data_processing.md
+       - Data analysis: resources/data_analysis.md
+       - Visualizations: resources/visualizations.md 
+  - Manuscript drafts:
+       - Manuscript: resources/manuscript.md
+  - References:
+       - Notes from readings: resources/notes_from_readings.md
+       - Citations: resources/citations.md
 
 # Configuration
 theme:
@@ -24,8 +43,8 @@ theme:
   font:
     text: 'Open Sans'
     code: 'Roboto Mono'
-  logo: 'assets/ESIIL_logo.png'
-  favicon: 'assets/favicon.ico'
+  logo: 'assets/esiil_content/ESIIL_logo.png'
+  favicon: 'assets/esiil_content/favicon.ico'
   # setting features for the navigation tab
   features:
     - navigation.sections
@@ -57,7 +76,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/cu-esiil/
+    # link: https://github.com/cu-esiil/
 
 extra_css:
   - stylesheets/extra.css
