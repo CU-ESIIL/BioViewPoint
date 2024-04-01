@@ -15,7 +15,13 @@ Our project will depend exclusively on open-access data. We will use:
 Instructions for setting up and using the CyVerse Discovery Environment for data processing. Tips for cloud-based data access and processing.
 
 ## Data Processing Steps
-* Acquisition of Landsat acquisitions during BBS observation months Derive multispectral pheonological composites
+1. Acquisition of Landsat acquisitions during BBS observation months, and over BBS sites
+2. Derivation of annual, multispectral, pheonological composites centered around BBS surveying periods
+3. Extraction and harmonization of species observations from BBS, GBIF, Xeno-Canto into tabular checklists
+4. Detection of causal interactions, and detection of causal effect sizes, between changes species compositions and changes multispectral data
+5. Use of step 4 to reduce list of test sites for subsequent modelling
+6. Development of GAN models to predict multispectral satellite data (step 2) based on species compositions (steps 3) for the selected test sites (step 5)
+7. Use of spectral decomposition to distinguish proportions of land cover types based on national land cover data
 
 ### Using GDAL VSI
 Guidance on using GDAL VSI (Virtual System Interface) for data access and processing. Example commands or scripts:
@@ -27,8 +33,9 @@ gdal_translate /vsicurl/http://example.com/data.tif output.tif
 Advantages of using cloud-optimized data formats and processing data without downloading. Instructions for such processes.
 
 ## Data Storage
-
-Information on storing processed data, with guidelines for choosing between the repository and CyVerse Data Store.
+(Information on storing processed data, with guidelines for choosing between the repository and CyVerse Data Store)
+Satellite data: 
+Species observation data: 
 
 ## Best Practices
 
