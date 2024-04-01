@@ -1,7 +1,12 @@
 # Data Processing Documentation
 
 ## Overview
+<p align="justify">
+At every level of ecological organisation, environmental changes influence biodiversity. Spectral signals captured through satellite remote sensing measure these environmental changes. Consequently, remote sensing has become a vital tool for biodiversity monitoring, conservation, and policymaking. However, it is important to recognise that the interplay between biodiversity and the environment is bidirectional. While the environment undoubtedly influences biodiversity, biodiversity itself also shapes the environment. This suggests that biodiversity data likely conceals valuable insights into associated environmental conditions and fluctuations. Remarkably, the utilisation of biodiversity data to model the environment has yet to receive widespread attention. Therefore, our proposed project aims to bridge this gap by harnessing both biodiversity data and deep learning to model the environment, as represented by multispectral satellite data. Given that multispectral data provides information on environmental conditions that inform spatiotemporal predictions of biodiversity, we hypothesise that the inverse is also possible. Additionally, given the importance of functional diversity in maintaining and promoting ecosystem functioning, we plan to use our modelling framework to explore scenarios of environmental change in the absence of species belonging to particular functional groups. We will provide a foundation to analyse the feedback between biodiversity and environmental change, enhancing our ability to communicate the impacts of biodiversity loss, to understand ecosystem dynamics, and to improve monitoring capabilities related to the post-2020 Global Biodiversity Framework.
+
 We aim to harness geotagged biodiversity data in the modelling of environmental conditions represented by multispectral satellite data. Additionally, given the importance of functional diversity in maintaining and promoting ecosystem functioning, we will use our modelling framework to explore scenarios of environmental change in the absence of species belonging to particular functional groups. We will develop and test our approach in areas targeted by the North American Breeding Bird Survey (BBS), using data obtained between 2015 and 2021.
+</p>
+
 
 ## Data Sources
 Our project will depend exclusively on open-access data. We will use:
