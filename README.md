@@ -10,7 +10,6 @@ Welcome to the BioViewPoint repository, part of the Environmental Data Science I
 [Link to the detailed project proposal document or include the proposal directly in the repository. This should outline the goals, methodologies, anticipated challenges, and projected timelines.]
 
 ## Group Members
-<p align="justify">
 - **Ruben Remelgado**, University of Bonn, Germany (**PI/Tech-Lead**; *geocomputation, data uncertainties/synergies, macroecology*) 
 - **Kimberly Thompson**, German Centre for Integrative Biodiversity Research (iDiv), Germany (**Co-PI**, *ornitology, biodiversity change, causal inference*)
 - **Ryo Ogawa**, University of Bonn, Germany (*wildlife ecology, ecosystem services,  ecoacoustics*)
@@ -21,7 +20,6 @@ Welcome to the BioViewPoint repository, part of the Environmental Data Science I
 - Garrett Knowlton, University of Wisconsin, USA	(*landscape ecology, machine learning, remote sensing)
 - Corey Callaghan, University of Florida	Davies, USA (*biodiversity change, citizen science, biodiversity change)
 - Michela Perrone, Czech University of Life Sciences, Czech Republic (*ecology, geoinformatics, remote sensing)
-</p>
 
 ## Repository Structure
 - **Analysis Code**: Scripts for data analysis, statistical modeling, etc.
