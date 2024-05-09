@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/780493737.svg)](https://zenodo.org/doi/10.5281/zenodo.11167916)
+
 # BioViewPoint
 Welcome to the BioViewPoint repository, part of the Environmental Data Science Innovation and Inclusion Lab (ESIIL). This repository serves as the central hub for our working group, hosting our project description, proposals, member bios, codebase, and more.
 
