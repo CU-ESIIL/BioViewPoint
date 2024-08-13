@@ -7,7 +7,7 @@ Welcome to the BioViewPoint repository, part of the Environmental Data Science I
 </p>
 
 ## Project Proposal
-[Link to the detailed project proposal document or include the proposal directly in the repository. This should outline the goals, methodologies, anticipated challenges, and projected timelines.]
+[BioViewPoint Proposal](https://drive.google.com/file/d/1zVZuIuF-O6vphaCs65ClvpsQfimR4QGy/view?usp=sharing)
 
 ## Group Members
 - **Ruben Remelgado**, University of Bonn, Germany (**PI/Tech-Lead**; *geocomputation, data uncertainties/synergies, macroecology*) 
