@@ -184,8 +184,15 @@ bbs_route.data_sf.point$geometry.1 <- NULL
 # Create a dataframe with all the information in both the bbs routes df and the
 # updated.route df but with the route shape (linestring) geometry only
 bbs_route.data_sf.line <- cbind(bbs_route.data_sf, updated.route.shapefile) 
-bbs_route.data_sf.line$geometry <- NULL
-names(bbs_route.data_sf.line)[21] <- "geometry"
+
+# Set the geometry column to the linestring geometry
+st_geometry(bbs_route.data_sf.line) <- bbs_route.data_sf.line$geometry.1
+
+# Remove the old geometry column
+bbs_route.data_sf.line$geometry.1 <- NULL
+
+# Ensure that 'geometry' is now the active geometry column
+st_geometry(bbs_route.data_sf.line) <- st_geometry(bbs_route.data_sf.line)
 
 
 ###############################################
@@ -281,10 +288,10 @@ plot(bbs_route.data_sf.point$geometry,
 # Write each sf dataframe as a geo json file
 
 st_write(bbs_route.data_sf.point, 
-         paste(path, "/00_Data/Processed/BBS_Rtes_Point.geojson",
+         paste(path, "/00_Data/Processed/BBS/BBS_Rtes_Point.shp",
                                         sep = ""))
 st_write(bbs_route.data_sf.line, 
-         paste(path, "/00_Data/Processed/BBS_Rtes_Linestring.geojson",
+         paste(path, "/00_Data/Processed/BBS/BBS_Rtes_Linestring.shp",
                                        sep = ""))
 
 
