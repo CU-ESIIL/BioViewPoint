@@ -46,3 +46,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+/Data/GBIF data for test cases/buffer_2_data
+/Data/GBIF data for test cases/buffer_3_data
+/Data/GBIF data for test cases/buffer_4_data
+/Data/GBIF data for test cases/buffer_5_data
+/Data/GBIF data for test cases/buffer_1_data
