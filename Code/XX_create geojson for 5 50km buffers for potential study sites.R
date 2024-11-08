@@ -34,9 +34,9 @@ for (i in 1:length(buffers)) {
   st_write(buffers[[i]], filename, driver = "GeoJSON", delete_dsn = TRUE)
 }
 
-st_as_text(st_read("Data/GBIF data for potential study sites/buffer_1.geojson")$geometry)
-st_as_text(st_read("Data/GBIF data for potential study sites/buffer_2.geojson")$geometry)
-st_as_text(st_read("Data/GBIF data for potential study sites/buffer_3.geojson")$geometry)
-st_as_text(st_read("Data/GBIF data for potential study sites/buffer_4.geojson")$geometry)
-st_as_text(st_read("Data/GBIF data for potential study sites/buffer_5.geojson")$geometry)
+st_as_text(st_read("Data/GBIF data for test cases/buffer_1.geojson")$geometry)
+st_as_text(st_read("Data/GBIF data for test cases/buffer_2.geojson")$geometry)
+st_as_text(st_read("Data/GBIF data for test cases/buffer_3.geojson")$geometry)
+st_as_text(st_read("Data/GBIF data for test cases/buffer_4.geojson")$geometry)
+st_as_text(st_read("Data/GBIF data for test cases/buffer_5.geojson")$geometry)
 
