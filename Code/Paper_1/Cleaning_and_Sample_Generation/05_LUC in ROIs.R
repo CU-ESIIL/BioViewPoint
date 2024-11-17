@@ -114,7 +114,7 @@ extracted_sf <- arrange(extracted_sf, desc(change.amt))
 
 # Write the shapefile with change
 st_write(extracted_sf, 
-         paste(path, "/01_Analysis/BBS and LULC/BBS_Rtes_wLULC.shp",
+         paste(path, "/01_Analyses/BBS and LULC/BBS_Rtes_wLULC.shp",
                sep = ""))
 
 

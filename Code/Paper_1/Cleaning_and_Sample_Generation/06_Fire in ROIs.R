@@ -33,15 +33,15 @@ library(ggplot2)
 ###############################################
 
 # Set path to Bioviewpoint folder (where data resides)
-# path <- "~/Library/CloudStorage/GoogleDrive-mainelobster28@gmail.com/.shortcut-targets-by-id/1HhR4gs3fKXyAXBhQom6t69gAqR6SeKhx/BioViewPoint"
-path <- "~/share/groups/MAS/04_personal/Kim_T/BioViewPoint"
+path <- "~/Library/CloudStorage/GoogleDrive-mainelobster28@gmail.com/.shortcut-targets-by-id/1HhR4gs3fKXyAXBhQom6t69gAqR6SeKhx/BioViewPoint"
+# path <- "~/share/groups/MAS/04_personal/Kim_T/BioViewPoint"
 # path <- "I:/mas/04_personal/Kim_T/BioViewPoint"
 
 # Define the coordinate system
 albers = sp:: CRS("+init=epsg:5070")
 
 # Load the square polygons (ROIs) with the column containing amount of change
-bbs.roi <- st_read(paste(path, "/01_Analysis/BBS and LULC/BBS_Rtes_wLULC.shp", 
+bbs.roi <- st_read(paste(path, "/01_Analyses/BBS and LULC/BBS_Rtes_wLULC.shp", 
                          sep = ""))
 
 bbs.roi <- sf :: st_transform(bbs.roi, albers)
@@ -108,6 +108,10 @@ routes.to.remove <- unique(overlap$uniq_rt)
 # Remove from the BBS ROI
 bbs.roi_revised <- bbs.roi[!(bbs.roi$uniq_rt %in% routes.to.remove), ]
 
+# Write the revised sf object
+st_write(bbs.roi_revised, 
+         paste(path, "/01_Analyses/BBS and LULC/BBS_Rtes_wLULC_minusfire.shp",
+               sep = ""))
 
 
 ###############################################
