@@ -64,7 +64,7 @@ for(i in 1:length(uni_spp)){ # loop through each species
     filter(species %in% sp) %>% # subset to only the species of interest
     vect() # convert to a SpatVector
   
-  e <- terra::extract(ras, unique(sp_dat), cells = TRUE) %>% # extract the cells
+  e <- terra::extract(ras, sp_dat, cells = TRUE) %>% # extract the cells
     count(cell) # count the number of cells
   
   rasx[e$cell] <- 1 # detection = 1; nondetection = 0
