@@ -17,11 +17,11 @@ Welcome to the BioViewPoint repository, part of the Environmental Data Science I
 - **Pablo Martinez**, Federal University of Sergipe, Brazil	(*zoology, species-human interactions, Biogeography*)
 - **Patrick O'Brien**, University of Alberta, Canada (*mathematics, physics, remote sensing*)
 - **Benjamin Leutner**, Land Banking Group, Germany (*geography, ecology, economics*)
-- **Corey Callaghan**, University of Florida	Davies, USA (*biodiversity change, citizen science)
-- **Michela Perrone**, Czech University of Life Sciences, Czech Republic (*ecology, geoinformatics, remote sensing)
+- **Corey Callaghan**, University of Florida	Davies, USA (*biodiversity change, citizen science*)
+- **Michela Perrone**, Czech University of Life Sciences, Czech Republic (*ecology, geoinformatics, remote sensing*)
 
 ## Code Repository
-(This section of the repository will include all the code developed for the project. You can structure it as follows)
+[BioViewpoint's Github repository](https://github.com/CU-ESIIL/BioViewPoint/tree/main/Code) contains the following:
 - **Analysis Code**: Scripts for data analysis, statistical modeling, etc.
 - **Data Processing**: Scripts for cleaning, merging, and managing datasets.
 - **Visualization**: Code for creating figures, charts, and interactive visualizations.
