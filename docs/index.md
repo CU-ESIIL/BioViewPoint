@@ -26,9 +26,3 @@ Welcome to the BioViewPoint repository, part of the Environmental Data Science I
 - **Data Processing**: Scripts for cleaning, merging, and managing datasets.
 - **Visualization**: Code for creating figures, charts, and interactive visualizations.
 
-
-
-10. **Establish Communication Channels**: Beyond GitHub, set up additional communication channels like Slack, Discord, or email lists for quick and informal discussions.
-
-Remember, the goal is to make your repository clear, accessible, and useful for all current and future members of your working group. Happy researching!
-
