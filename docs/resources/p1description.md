@@ -1,5 +1,11 @@
 # Project 1
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+  <img src=./blackthroatedgreenwarbler.png" alt="Black-throated Green Warbler" style="height: 150px;">
+  <img src="./junco.png" alt="Junco" style="height: 150px;">
+  <img src="./sparrow.png" alt="Sparrow" style="height: 150px;">
+</div>
+
 # Detecting the impact of populations, species, and communities on the environment
 
 # Working Abstract
