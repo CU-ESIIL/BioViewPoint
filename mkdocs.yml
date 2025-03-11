@@ -13,6 +13,10 @@ copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
 # Page tree
 nav:
   - Home: index.md
+  - Project 1:
+       - Description: project1/p1description.md
+  - Project 2:
+       - Description: project2/p2description.md
   - Resources:
        - Code of Conduct: resources/code-of-conduct.md
        - Participant agreement: resources/participant_agreement.md
@@ -21,21 +25,21 @@ nav:
        - Cyverse: resources/cyverse_basics.md
        - Art Gallery: resources/art gallery.md
        - Docker: resources/docker_basics.md
-  - Meeting Notes:
-       - Pre-meetings: resources/pre_meeting_notes.md
-       - First meeting: resources/first_meeting_notes.md
-       - Second meeting: resources/second_meeting_notes.md
-       - Third meeting: resources/third_meeting_notes.md
-       - Post-meetings: resources/post_meeting_notes.md
-  - Code documentation:
-       - Data processing: resources/data_processing.md
-       - Data analysis: resources/data_analysis.md
-       - Visualizations: resources/visualizations.md 
-  - Manuscript drafts:
-       - Manuscript: resources/manuscript.md
-  - References:
-       - Notes from readings: resources/notes_from_readings.md
-       - Citations: resources/citations.md
+ # - Meeting Notes:
+ #      - Pre-meetings: resources/pre_meeting_notes.md
+ #      - First meeting: resources/first_meeting_notes.md
+ #      - Second meeting: resources/second_meeting_notes.md
+ #      - Third meeting: resources/third_meeting_notes.md
+ #      - Post-meetings: resources/post_meeting_notes.md
+ # - Code documentation:
+ #      - Data processing: resources/data_processing.md
+ #      - Data analysis: resources/data_analysis.md
+ #      - Visualizations: resources/visualizations.md 
+ # - Manuscript drafts:
+ #      - Manuscript: resources/manuscript.md
+ # - References:
+ #      - Notes from readings: resources/notes_from_readings.md
+ #      - Citations: resources/citations.md
 
 # Configuration
 theme:
