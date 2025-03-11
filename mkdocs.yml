@@ -14,9 +14,9 @@ copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
 nav:
   - Home: index.md
   - Project 1:
-       - Description: project1/p1description.md
+       - Description: resources/p1description.md
   - Project 2:
-       - Description: project2/p2description.md
+       - Description: resources/p2description.md
   - Resources:
        - Code of Conduct: resources/code-of-conduct.md
        - Participant agreement: resources/participant_agreement.md
