@@ -10,7 +10,7 @@ I have a background in geography, and over a decade of experience developing met
 
 <br>
 
-## Kimberly Thompson
+## Kimberly Thompson (PI)
 German Centre for Integrative Biodiversity Research (iDiv), Germany (**Co-PI**, *biodiversity change, global change drivers, causal inference*)
 
 ## Ryo Ogawa
