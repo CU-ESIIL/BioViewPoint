@@ -14,7 +14,7 @@ copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
 nav:
   - Home: index.md
   - Work Packages:
-       - WP1 - Ecosystem engineers: resources/p1description.md
+       - WP1 - Detecting the impact of populations, species, and communities on the environment: resources/p1description.md
   - Project 2:
        - WP2 - Simulation ecosystem changes: resources/p2description.md
   #- Resources:
