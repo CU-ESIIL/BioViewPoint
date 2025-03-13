@@ -68,5 +68,5 @@ I am currently a PhD student at the University of Alberta studying remote sensin
 *Czech University of Life Sciences, Czech Republic*
 <img src="https://i1.rgstatic.net/ii/profile.image/1081702566887425-1634909397842_Q512/Michela-Perrone.jpg" align="right" width="200px"/>
 <p align="justify">
- 
+ I am a researcher at the Czech University of Life Sciences in Prague. My research focuses on assessing plant biodiversity through remote sensing at various ecological scales. I am especially interested in spectral diversity and its impacts on plant diversity.
 </p>
