@@ -13,6 +13,7 @@ copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
 # Page tree
 nav:
   - Home: index.md
+  - Our team: resources/team.md
   - Work Packages:
        - WP1 - Detecting the impact of populations, species, and communities on the environment: resources/p1description.md
   - Project 2:
