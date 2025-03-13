@@ -15,7 +15,7 @@ nav:
   - Home: index.md
   - Our team: resources/team.md
   - Work Packages:
-       - WP1 - Detecting the impact of populations, species, and communities on the environment: resources/p1description/p1description.md
+       - WP1 - Detecting the impact of populations, species, and communities on the environment: resources/p1description.md
        - WP2 - Simulation ecosystem changes: resources/p2description.md
   #- Resources:
   #     - Code of Conduct: resources/code-of-conduct.md
