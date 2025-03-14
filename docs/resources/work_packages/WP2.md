@@ -1,7 +1,7 @@
 # WP2 - Simulation of environmental change under biodiversity loss 
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <img src="../leading_figure.png" style="width: 40%;"/>
+  <img src="../leading_figure_small.png" style="width: 40%;"/>
 </div>
 
 <p align="justify">
