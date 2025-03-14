@@ -1,7 +1,7 @@
 # Our team
 
 <figure style="text-align: center;">
-  <img src="./Grouppic.jpg" alt="Group picture from BioviewPoint's first meeting" style="width: 60%; max-width: 500px;">
+  <img src="Grouppic.jpg" alt="Group picture from BioviewPoint's first meeting" style="width: 60%; max-width: 500px;">
   <figcaption>
     BioViewPoint's first meeting in Boulder, Colorado, August 2024. From left to right: Corey Callaghan, Michela Perrone, Kimberly Thompson, Ruben Remelgado, Ryo Ogawa. Not pictured: Patrick O'Brien, Marina Wolowski, Benjamin Leutner.
   </figcaption>
