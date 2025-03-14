@@ -16,7 +16,7 @@ Welcome to the BioViewPoint repository, part of the Environmental Data Science I
 
 
 <figure style="text-align: center;">
-  <img src="./resources/images/extended_concept.png" alt="Group picture from BioviewPoint's first meeting" style="width: 80%; max-width: 600px;">
+  <img src="resources/images/extended_concept.png" alt="Group picture from BioviewPoint's first meeting" style="width: 80%; max-width: 600px;">
   </figure>
 <p align="justify">
   Biodiversity-driven simulation of satellite data. In a 'true’ landscape (<b>a</b>), biodiversity data (<b>b</b>) and multispectral satellite data (<b>c</b>) are combined into a single data stream (<b>d</b>) to train a cGAN model (<b>e</b>) that predicts satellite data from biodiversity data. The output model (<b>f</b>) then uses additional satellite data (<b>g</b>) and user-modified biodiversity data (<b>h</b>), which allows us to examine scenario landscapes (<b>i</b>).
